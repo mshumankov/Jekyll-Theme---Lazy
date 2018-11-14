@@ -17,8 +17,8 @@ title: Jekyll Theme - Lazy
 description: It is a minimal and lazy!
 email: m.shumankov@abv.bg
   Simple theme 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "/jekyll-theme-lazy" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/jekyll-theme-lazy" # the subpath of your site, e.g. /blog
+url:  # the base hostname & protocol for your site, e.g. http://example.com
 destination: "docs"
 twitter_username: jekyllrb
 github_username:  mshumankov
