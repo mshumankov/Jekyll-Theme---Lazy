@@ -1,0 +1,31 @@
+
+.posts{
+   display: flex;
+   justify-content: center;
+   margin: 3rem;
+   flex-direction: column;
+}
+.post-article{
+   width: 100%;
+   padding: 1rem;
+   margin: 1rem;
+   box-shadow: 0 0 1.5rem 0.1rem rgba(0, 0, 0, 0.1)
+}
+.post-article a {
+   text-decoration: none;
+   color: rgb(51, 51, 51);
+}
+.wrapper p {
+   padding-top: 2.5em;
+   font-size: 0.8rem;
+}
+
+@media screen and (min-width: 900px){
+   .posts{
+      flex-direction: row;
+      align-items: center;
+   }
+   .post-article{
+      width: 25%;
+   }
+}

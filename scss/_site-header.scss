@@ -1,0 +1,30 @@
+body {
+   padding-top: 12rem;
+}
+.site-branding {
+position: fixed;
+top: 0; left:0;
+width: 100%;
+background: linear-gradient(to bottom, rgba(255,255,255,1) 70%,rgba(255,255,255,0) 100%);
+padding: var(--spacing-site, 4rem);
+padding-bottom: 4rem;
+}
+.site-branding {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.site-title {
+   /* text-transform: uppercase; */
+   font-weight: bold;
+   font-size: 1.8em;
+   padding-bottom: 0.5rem;
+   margin-bottom: 0.5rem;
+   border-bottom: 2px solid #DDD;
+}
+.site-description {
+   font-style: italic;
+   font-family: serif;
+   font-size: 120%;
+}

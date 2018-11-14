@@ -1,0 +1,19 @@
+---
+layout: site
+---
+
+
+<div class="posts">
+   {% for post in site.posts %}
+     <article class="post-article">
+       <a href="{{ site.baseurl }}{{ post.url }}">
+         <div class="wrapper">
+           <h6>{{ post.title }} for testing the theme</h6>
+           <p>{{ post.date | date: "%-d %B %Y" }}</p>
+         </div> 
+        </a>
+      </article>  
+   {% endfor %}
+    </div>
+    
+
